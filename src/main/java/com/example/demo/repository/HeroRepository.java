@@ -1,11 +1,8 @@
 package com.example.demo.repository;
 
-import com.example.demo.Hero;
+import com.example.demo.model.Hero;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface HeroRepository extends CrudRepository<Hero, Long>{
-
 
 }
